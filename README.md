@@ -34,3 +34,17 @@ export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib/x86_64-linux-gnu/gazebo-9/plu
 export OGRE_RESOURCE_PATH=/usr/lib/x86_64-linux-gnu/OGRE-1.9.0
 ```
 Otherwise, create the setup.sh file above in the path ```/usr/share/gazebo/setup.sh``` (correct paths if necessary).
+
+# Webots Set Up
+* Install Webots from sources
+1) ```mkdir ~/dev && cd ~/dev```
+2) ```git clone --recurse-submodules git@github.com:cyberbotics/webots.git```
+3) ```cd webots```
+4) ```make```
+* Create an environment variable for webots' path
+```
+cat >> ~/.profile <<x
+export WEBOTS_HOME=$HOME/dev/webots   
+x
+```
+(obs.: if you install webots with a binary file, you must configure WEBOTS_HOME with the right path, which might be ```/usr/share/webots``` or ```/usr/local/webots```)
