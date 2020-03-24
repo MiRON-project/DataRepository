@@ -1,0 +1,3 @@
+[submodule "MIRON-DataRepository"]
+	path = MIRON-DataRepository
+	url = git@github.com:MiRON-project/MIRON-DataRepository.git
