@@ -1,0 +1,12 @@
+[submodule "Groot"]
+	path = Groot
+	url = https://github.com/BehaviorTree/Groot.git
+[submodule "MOOD2Be"]
+	path = MOOD2Be
+	url = git@github.com:MiRON-project/MOOD2Be.git
+[submodule "ZMQServer"]
+	path = ZMQServer
+	url = git@github.com:MiRON-project/ZMQServer.git
+[submodule "bundles"]
+	path = bundles
+	url = git@github.com:MiRON-project/bundles.git
